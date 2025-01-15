@@ -2,9 +2,6 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Streamlit requires "magic" to ensure inline plotting
-st.set_option('deprecation.showPyplotGlobalUse', False)
-
 def monthly_mortgage_payment(property_value, down_payment_pct, annual_interest_rate, years):
     """
     Compute the monthly mortgage payment given:
