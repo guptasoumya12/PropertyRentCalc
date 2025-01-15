@@ -267,3 +267,7 @@ def main():
         - **Net Annual Cash Flow** = (12 × Actual Rent) - (Mortgage, Taxes, Insurance, HOA, Vacancy/CapEx).
         - **Initial Investment** = (Down Payment + Closing Costs).
         - **ROI** = (Net Annual Cash Flow / Initial Investment) × 100
+        """)
+
+if __name__ == "__main__":
+    main()
